@@ -202,6 +202,24 @@ footer {
     color: white;
 }
 
+
+/*Media query for 980px */
+@media  screen and (max-width: 980px) {
+    div.wrapper {
+        width: 650px;
+        margin: 110px auto 100px 50px;
+    }
+
+    .MyNameBig {
+        margin: 0 350px 0 0;
+    }
+
+    div.gallery {
+        float: left;
+        margin-right: 15px;
+    }
+}
+
 /*Media query for 768px */
 @media  screen and (max-width: 768px) {
 
@@ -222,7 +240,6 @@ footer {
 /*Media query for 640px */
 @media  screen and (max-width: 640px) {
 
-    
     div.wrapper {
         width: 535px;
         margin-right: 5px;
