@@ -202,6 +202,23 @@ footer {
     color: white;
 }
 
+/*Media query for 768px */
+@media  screen and (max-width: 768px) {
+
+    div.wrapper {
+        width: 640px;
+    }
+
+    .MyNameBig{
+    margin: 0 150px 0 0;
+    }
+
+    div.gallery {
+        float: left;
+        margin-right: 15px;
+    }
+}
+
 /*Media query for 640px */
 @media  screen and (max-width: 640px) {
 
@@ -214,7 +231,7 @@ footer {
     }
 
     nav {
-        width: 640px;
+        width: 100%;
         align-content: center;
         position: absolute;
     }
@@ -242,12 +259,13 @@ footer {
     #Portfolio {
         position: absolute;
         top: 75px;
-        right: 275px;
+        left: 16rem;
     }
 
     #Contact {
         position: absolute;
         top: 75px;
-        right: 175px;
+        left: 22rem;
     }
 }
+
