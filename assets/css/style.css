@@ -201,3 +201,53 @@ footer {
     left: 45%;
     color: white;
 }
+
+/*Media query for 640px */
+@media  screen and (max-width: 640px) {
+
+    
+    div.wrapper {
+        width: 535px;
+        margin-right: 5px;
+        margin-top: 150px;
+
+    }
+
+    nav {
+        width: 640px;
+        align-content: center;
+        position: absolute;
+    }
+
+    header {
+        background-color:  #4aaaa5;
+    }
+
+    .MyNameBig {
+        margin: 0 200px 0 200px;
+    }
+
+    .NavLinks {
+        background-color: white;
+        padding: 5px 25px 5px 25px;   
+        margin: 0;
+    }
+
+   #AboutMe{
+        position: absolute;
+        top: 75px;
+        left: 9rem; 
+    }
+
+    #Portfolio {
+        position: absolute;
+        top: 75px;
+        right: 275px;
+    }
+
+    #Contact {
+        position: absolute;
+        top: 75px;
+        right: 175px;
+    }
+}
